@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.AyushEnv/
+.venv/
+venv/
+env/
+
+# Local settings and secrets
+.env
+.env.*
+!.env.example
+
+# Local databases
+*.sqlite3
+*.db
+
+# Editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
